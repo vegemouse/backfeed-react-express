@@ -1,6 +1,6 @@
 # BackFeed
 
-BackFeed is an application thats allows project managers, business owners, and developers to request feedback about projects via email to users.
+BackFeed is an application thats allows project managers, business owners, and developers to request feedback about projects via email to users. 
 
 
 ## Technologies
@@ -31,4 +31,4 @@ $ npm run build
 ```
 
 ## License
-It's open source! 
+It's open source!

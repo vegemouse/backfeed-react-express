@@ -13,7 +13,7 @@ class Payments extends Component {
         token={token => this.props.handleToken(token)} // Poorly named. Callback function called after token is received
         stripeKey={process.env.REACT_APP_STRIPE_KEY}
       >
-        <button className="btn">
+        <button className="btn yellow darken-2">
           Add Credits
         </button>
       </StripeCheckout>

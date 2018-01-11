@@ -1,0 +1,11 @@
+.landing {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('feedback.jpeg');
+  background-size: contain;
+  background-position: center center;
+  color: white;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

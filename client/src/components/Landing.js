@@ -2,11 +2,15 @@ import React from 'react';
 
 const Landing = () => {
   return (
-    <div style={{ textAlign: 'center' }}>
+    <div className="landing" style={{ textAlign: 'center' }}>
       <h1>
-        Emaily!
+        Make client feedback<br /> great again.
       </h1>
-      Collect feedback from your users
+      <p>
+        BackFeed is a simple, straightforward approach to requesting user feedback.
+      </p>
+      <br />
+      <a href="/auth/google" className="btn yellow darken-2">Get Started</a>
     </div>
   );
 };
