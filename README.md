@@ -1,6 +1,6 @@
 # BackFeed
 
-BackFeed is an application thats allows project managers, business owners, and developers to request feedback about projects via email to users. 
+BackFeed is an application thats allows project managers, business owners, and developers to request feedback about projects via email to users.
 
 
 ## Technologies
@@ -11,6 +11,7 @@ BackFeed is an application thats allows project managers, business owners, and d
 * Mongoose ORM
 * Passport.js (with Google Strategy)
 * Stripe
+* SendGrid
 
 ## Development
 To start developing, simply clone this repository and:

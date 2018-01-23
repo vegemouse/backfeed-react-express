@@ -29,7 +29,15 @@ class Header extends Component {
             to={this.props.auth ? '/surveys' : '/'}
             className="left brand-logo"
           >
-            &nbsp;BackFeed
+            <i
+              className="material-icons"
+              style={{
+                fontSize: '1.3em',
+                marginRight: '0',
+                color: '#FFC100'
+              }}
+            >flash_on</i>
+            <span className="hide-on-small-and-down">BackFeed</span>
           </Link>
           <ul className="right">
             {this.renderContent()}
